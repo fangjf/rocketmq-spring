@@ -23,7 +23,7 @@
     <parent>
         <groupId>org.apache.rocketmq</groupId>
         <artifactId>rocketmq-spring-boot-parent</artifactId>
-        <version>1.5.7-RELEASE</version>
+        <version>1.4.4-RELEASE</version>
         <relativePath>../rocketmq-spring-boot-parent/pom.xml</relativePath>
     </parent>
 
