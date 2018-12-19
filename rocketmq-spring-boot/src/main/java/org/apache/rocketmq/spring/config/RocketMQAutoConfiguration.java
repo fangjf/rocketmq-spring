@@ -66,7 +66,7 @@ public class RocketMQAutoConfiguration {
 
     @Bean
     @ConditionalOnClass(name = "com.fasterxml.jackson.databind.ObjectMapper")
-    @ConditionalOnMissingBean(ObjectMapper.class)
+    @ConditionalOnMissingBean(value = ObjectMapper.class, name = "rocketMQMessageObjectMapper")
     public ObjectMapper rocketMQMessageObjectMapper() {
         return new ObjectMapper();
     }
